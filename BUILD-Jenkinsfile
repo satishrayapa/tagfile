@@ -5,11 +5,7 @@ pipeline {
              steps {
                 cleanWs()
                 bat '''echo %JOB_NAME%'''
-
-
-                
-                     
-                                         
-             }
+	     }
          }
-  }
+    }
+}
