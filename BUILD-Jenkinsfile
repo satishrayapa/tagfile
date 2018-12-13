@@ -1,0 +1,15 @@
+pipeline {
+    agent { label 'master' }
+    stages {
+         stage ('checkouts') {
+             steps {
+                cleanWs()
+                bat '''echo %JOB_NAME%'''
+
+
+                
+                     
+                                         
+             }
+         }
+  }
